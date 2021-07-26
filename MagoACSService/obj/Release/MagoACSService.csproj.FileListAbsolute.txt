@@ -1,0 +1,2 @@
+E:\SVN.NET\MQ.TM2\MagoACSService\obj\Release\MagoACSService.csprojResolveAssemblyReference.cache
+E:\SVN.NET\MQ.TM2\MagoACSService\obj\Release\MagoACSService.exe

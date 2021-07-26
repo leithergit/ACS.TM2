@@ -1,0 +1,3 @@
+
+sc start UMSTCPSERVICE
+pause()

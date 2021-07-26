@@ -1,0 +1,11 @@
+E:\SVN.NET\MQ.TM2\MagoACSService\obj\Debug\MagoACSService.exe
+E:\SVN.NET\MQ.TM2\MagoACSService\obj\Debug\MagoACSService.csprojResolveAssemblyReference.cache
+E:\SVN.NET\MQ.TM2\MagoACSService\bin\Debug\MagoACSService.exe.config
+E:\SVN.NET\MQ.TM2\MagoACSService\bin\Debug\MagoACSService.exe
+E:\SVN.NET\MQ.TM2\MagoACSService\bin\Debug\MagoACSService.pdb
+E:\SVN.NET\MQ.TM2\MagoACSService\bin\Debug\Apache.NMS.ActiveMQ.dll
+E:\SVN.NET\MQ.TM2\MagoACSService\bin\Debug\Apache.NMS.dll
+E:\SVN.NET\MQ.TM2\MagoACSService\bin\Debug\ZECS.Common.ActiveMQ.dll
+E:\SVN.NET\MQ.TM2\MagoACSService\bin\Debug\Apache.NMS.xml
+E:\SVN.NET\MQ.TM2\MagoACSService\bin\Debug\Apache.NMS.ActiveMQ.xml
+E:\SVN.NET\MQ.TM2\MagoACSService\obj\Debug\MagoACSService.pdb

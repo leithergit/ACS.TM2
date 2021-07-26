@@ -1,0 +1,17 @@
+E:\SVN.NET\MQ.TM2\mqZECS\bin\x86\Release\MagoACSUpdate.exe.config
+E:\SVN.NET\MQ.TM2\mqZECS\obj\x86\Release\MagoACSUpdate.exe
+E:\SVN.NET\MQ.TM2\mqZECS\obj\x86\Release\MagoACSUpdate.csprojResolveAssemblyReference.cache
+E:\SVN.NET\MQ.TM2\mqZECS\obj\x86\Release\MagoACSUpdate.csproj.GenerateResource.Cache
+E:\SVN.NET\MQ.TM2\mqZECS\obj\x86\Release\mqZECS.Form1.resources
+E:\SVN.NET\MQ.TM2\mqZECS\bin\x86\Release\MagoACSUpdate.exe
+E:\SVN.NET\MQ.TM2\mqZECS\bin\x86\Release\MagoACSUpdate.pdb
+E:\SVN.NET\MQ.TM2\mqZECS\bin\x86\Release\Apache.NMS.ActiveMQ.dll
+E:\SVN.NET\MQ.TM2\mqZECS\bin\x86\Release\Apache.NMS.dll
+E:\SVN.NET\MQ.TM2\mqZECS\bin\x86\Release\log4net.dll
+E:\SVN.NET\MQ.TM2\mqZECS\bin\x86\Release\ZECS.Common.ActiveMQ.dll
+E:\SVN.NET\MQ.TM2\mqZECS\obj\x86\Release\mqZECS.Properties.Resources.resources
+E:\SVN.NET\MQ.TM2\mqZECS\obj\x86\Release\MagoACSUpdate.pdb
+E:\SVN.NET\MQ.TM2\mqZECS\bin\x86\Release\NTCPMSG.dll
+E:\SVN.NET\MagoACS.TM2\mqZECS\bin\x86\Release\MagoACSUpdate.exe.config
+E:\SVN.NET\MagoACS.TM2\mqZECS\obj\x86\Release\MagoACSUpdate.exe
+E:\SVN.NET\MagoACS.TM2\mqZECS\obj\x86\Release\MagoACSUpdate.pdb

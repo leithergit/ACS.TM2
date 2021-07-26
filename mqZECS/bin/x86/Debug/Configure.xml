@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configure AutoStart="true" SyncInterval="180" ConnectionType="1">
+	<MQServer Host="127.0.0.1" Port="5051"/>
+	<SQLServer Host="127.0.0.1" Account="sa" PWD="Mago@1234" DB="BioStar"/>
+</Configure>

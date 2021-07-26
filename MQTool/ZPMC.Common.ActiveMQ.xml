@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZPMC.Common.ActiveMQ</name>
+    </assembly>
+    <members>
+        <member name="T:ZPMC.Common.ActiveMQ.ZQueue_Send">
+            <summary>
+            Queue队列发送类.
+            Write by xujianfeng。
+            </summary>
+        </member>
+        <member name="T:ZPMC.Common.ActiveMQ.Z_Send_Base">
+            <summary>
+            Topic主题发送类.
+            Write by xujianfeng。
+            </summary>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Send_Base.#ctor(System.Boolean,System.String,System.Int32,System.String)">
+            <summary>
+            Z_Send_Base构造函数
+            </summary>
+            <param name="bIsTopicMode">true:Topic;false:Queue</param>
+            <param name="strMQServerIP">ActiveMQ服务器IP</param>
+            <param name="nMQServerPort">ActiveMQ服务器端口号</param>
+            <param name="strName">通讯名</param> 
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Send_Base.Start">
+            <summary>
+            启动连接
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Send_Base.Stop">
+            <summary>
+            关闭连接
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Send_Base.DoConnectionClosedEvent">
+            <summary>
+            执行连接关闭通知事件
+            </summary>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Send_Base.m_Connection_ExceptionListener(System.Exception)">
+            <summary>
+            自动检测到连接异常处理
+            </summary>
+            <param name="exception"></param>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Send_Base.CreateTextMessage(System.String)">
+            <summary>
+            创建ITextMessage
+            </summary>
+            <param name="message">String消息</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Send_Base.CreateBytesMessage(System.Byte[])">
+            <summary>
+            创建IBytesMessage
+            </summary>
+            <param name="message">byte[]消息</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Send_Base.CreateObjectMessage(System.Object)">
+            <summary>
+            创建IObjectMessage
+            </summary>
+            <param name="message">object可序列化对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Send_Base.Send(Apache.NMS.IMessage)">
+            <summary>
+            异步发送消息。
+            MsgDeliveryMode:不持久化
+            MsgPriority:Normal
+            TimeSpan:-1
+            </summary>
+            <param name="message">IMessage消息</param>
+            <returns>发送成功或失败</returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Send_Base.Send(Apache.NMS.IDestination,Apache.NMS.IMessage)">
+            <summary>
+            异步发送消息。
+            MsgDeliveryMode:不持久化
+            MsgPriority:Normal
+            TimeSpan:-1
+            </summary>
+            <param name="destination">IDestination，指定发送目地</param>
+            <param name="message">IMessage消息</param>
+            <returns>发送成功或失败</returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Send_Base.Send(Apache.NMS.IMessage,Apache.NMS.MsgDeliveryMode,Apache.NMS.MsgPriority,System.TimeSpan)">
+            <summary>
+            异步发送消息。
+            </summary>
+            <param name="message">IMessage消息</param>
+            <param name="deliveryMode">MsgDeliveryMode，消息是否在服务器端持久化</param>
+            <param name="priority">MsgPriority，消息优先级</param>
+            <param name="timeToLive">TimeSpan，消息保存时间</param>
+            <returns>发送成功或失败</returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Send_Base.Send(Apache.NMS.IDestination,Apache.NMS.IMessage,Apache.NMS.MsgDeliveryMode,Apache.NMS.MsgPriority,System.TimeSpan)">
+            <summary>
+            异步发送消息。
+            </summary>
+            <param name="destination">IDestination，指定发送目地</param>
+            <param name="message">IMessage消息</param>
+            <param name="deliveryMode">MsgDeliveryMode，消息是否在服务器端持久化</param>
+            <param name="priority">MsgPriority，消息优先级</param>
+            <param name="timeToLive">TimeSpan，消息保存时间</param>
+            <returns>发送成功或失败</returns>
+        </member>
+        <member name="E:ZPMC.Common.ActiveMQ.Z_Send_Base.OnConnectionClosed">
+            <summary>
+            连接关闭事件
+            </summary>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZQueue_Send.#ctor(System.String,System.Int32,System.String)">
+            <summary>
+            ZQueue_Send构造函数
+            </summary>
+            <param name="strMQServerIP">ActiveMQ服务器IP</param>
+            <param name="nMQServerPort">ActiveMQ服务器端口号</param>
+            <param name="strQueueName">通讯的Queue队列名</param>
+        </member>
+        <member name="T:ZPMC.Common.ActiveMQ.ZQueue_Receive_Sync">
+            <summary>
+            Queue队列接受类.
+            Write by xujianfeng。
+            </summary>
+        </member>
+        <member name="T:ZPMC.Common.ActiveMQ.Z_Receive_Base">
+            <summary>
+            Topic主题接受类.
+            Write by xujianfeng。
+            </summary>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Receive_Base.#ctor(System.Boolean,System.String,System.Int32,System.String,ZPMC.Common.ActiveMQ.OnMessageReceiveDelegate)">
+            <summary>
+            ZTopic_Receive构造函数
+            </summary>
+            <param name="bIsTopicMode">true:Topic;false:Queue</param>
+            <param name="strMQServerIP">ActiveMQ服务器IP</param>
+            <param name="nMQServerPort">ActiveMQ服务器端口号</param>
+            <param name="strName">通讯的主题名</param>
+            <param name="OnMessageReceive">OnMessageReceiveDelegate，接受代理</param>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Receive_Base.Start">
+            <summary>
+            启动连接
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Receive_Base.Stop">
+            <summary>
+            关闭连接
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Receive_Base.DoConnectionClosedEvent">
+            <summary>
+            执行连接关闭通知事件
+            </summary>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Receive_Base.m_Connection_ExceptionListener(System.Exception)">
+            <summary>
+            自动检测到连接异常处理
+            </summary>
+            <param name="exception"></param>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Receive_Base.CreateTextMessage(System.String)">
+            <summary>
+            创建ITextMessage
+            </summary>
+            <param name="message">String消息</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Receive_Base.CreateBytesMessage(System.Byte[])">
+            <summary>
+            创建IBytesMessage
+            </summary>
+            <param name="message">byte[]消息</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Receive_Base.CreateObjectMessage(System.Object)">
+            <summary>
+            创建IObjectMessage
+            </summary>
+            <param name="message">object可序列化对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Z_Receive_Base.Thread_ThreadDeal(System.Object)">
+            <summary>
+            异步接受线程处理函数
+            </summary>
+            <param name="param"></param>
+        </member>
+        <member name="E:ZPMC.Common.ActiveMQ.Z_Receive_Base.OnConnectionClosed">
+            <summary>
+            连接关闭事件
+            </summary>
+        </member>
+        <member name="F:ZPMC.Common.ActiveMQ.ZQueue_Receive_Sync.m_OnMessageReceiveSync">
+            <summary>
+            同步消息处理代理
+            </summary>
+        </member>
+        <member name="F:ZPMC.Common.ActiveMQ.ZQueue_Receive_Sync.m_replyProducer_SyncMsg">
+            <summary>
+            同步消息
+            </summary>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZQueue_Receive_Sync.#ctor(System.String,System.Int32,System.String,ZPMC.Common.ActiveMQ.OnMessageReceiveSyncDelegate)">
+            <summary>
+            ZQueue_Receive构造函数
+            </summary>
+            <param name="strMQServerIP">ActiveMQ服务器IP</param>
+            <param name="nMQServerPort">ActiveMQ服务器端口号</param>
+            <param name="strQueueName">通讯的Queue队列名</param>
+            <param name="OnMessageReceive">OnMessageReceiveDelegate，接受代理</param>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZQueue_Receive_Sync.Start">
+            <summary>
+            启动连接
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZQueue_Receive_Sync.Thread_ThreadDeal(System.Object)">
+            <summary>
+            接受线程处理函数
+            </summary>
+            <param name="param"></param>
+        </member>
+        <member name="T:ZPMC.Common.ActiveMQ.ZQueue_Send_Sync">
+            <summary>
+            Queue队列发送类.
+            Write by xujianfeng。
+            </summary>
+        </member>
+        <member name="F:ZPMC.Common.ActiveMQ.ZQueue_Send_Sync.m_TempQueue_SyncReceive">
+            <summary>
+            临时queue，用于同步消息返回值消息队列
+            </summary> 
+        </member>
+        <member name="F:ZPMC.Common.ActiveMQ.ZQueue_Send_Sync.m_Consumer_SyncReceive">
+            <summary>
+            临时queue，用于同步消息返回值消息队列
+            </summary>
+        </member>
+        <member name="F:ZPMC.Common.ActiveMQ.ZQueue_Send_Sync.m_tsTimeOut_SyncReceive">
+            <summary>
+            同步消息等待时间，等待返回消息
+            </summary>
+        </member>
+        <member name="F:ZPMC.Common.ActiveMQ.ZQueue_Send_Sync.m_nSendCorrelationID_Sync">
+            <summary>
+            发送的消息ID标识，为确认返回的消息是否准确
+            </summary>
+        </member>
+        <member name="F:ZPMC.Common.ActiveMQ.ZQueue_Send_Sync.m_mutexSend">
+            <summary>
+            发送函数同步锁
+            </summary>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZQueue_Send_Sync.#ctor(System.String,System.Int32,System.String)">
+            <summary>
+            ZQueue_Send构造函数
+            </summary>
+            <param name="strMQServerIP">ActiveMQ服务器IP</param>
+            <param name="nMQServerPort">ActiveMQ服务器端口号</param>
+            <param name="strQueueName">通讯的Queue队列名</param>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZQueue_Send_Sync.Start">
+            <summary>
+            启动连接
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZQueue_Send_Sync.Stop">
+            <summary>
+            关闭连接
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZQueue_Send_Sync.Sync_SetMsgReplyInfo(Apache.NMS.IMessage)">
+            <summary>
+            设置消息回复的TempQueue路径和消息标识
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZQueue_Send_Sync.Sync_ReceiveReplyMsg(System.Int32)">
+            <summary>
+            接收回复消息
+            </summary>
+            <param name="nSendCorrelationID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZQueue_Send_Sync.Send_Sync(Apache.NMS.IMessage,Apache.NMS.IMessage@)">
+            <summary>
+            同步发送消息。
+            MsgDeliveryMode:不持久化
+            MsgPriority:Normal
+            TimeSpan:5秒
+            </summary>
+            <param name="message">IMessage消息</param>
+            <param name="msgRet">IMessage,返回消息</param>
+            <returns>发送成功或失败</returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZQueue_Send_Sync.Send_Sync(Apache.NMS.IMessage,Apache.NMS.MsgDeliveryMode,Apache.NMS.MsgPriority,System.TimeSpan,Apache.NMS.IMessage@)">
+            <summary>
+            同步发送消息。
+            </summary>
+            <param name="message">IMessage消息</param>
+            <param name="deliveryMode">MsgDeliveryMode，消息是否在服务器端持久化</param>
+            <param name="priority">MsgPriority，消息优先级</param>
+            <param name="timeToLive">TimeSpan，消息保存时间</param>
+            <param name="msgRet">IMessage,返回消息</param>
+            <returns>发送成功或失败</returns>
+        </member>
+        <member name="T:ZPMC.Common.ActiveMQ.ZTopic_Receive">
+            <summary>
+            Topic主题接受类.
+            Write by xujianfeng。
+            </summary>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZTopic_Receive.#ctor(System.String,System.Int32,System.String,ZPMC.Common.ActiveMQ.OnMessageReceiveDelegate)">
+            <summary>
+            ZTopic_Receive构造函数
+            </summary>
+            <param name="strMQServerIP">ActiveMQ服务器IP</param>
+            <param name="nMQServerPort">ActiveMQ服务器端口号</param>
+            <param name="strTopicName">通讯的主题名</param>
+            <param name="OnMessageReceive">OnMessageReceiveDelegate，接受代理</param>
+        </member>
+        <member name="T:ZPMC.Common.ActiveMQ.ZUtil">
+            <summary>
+            ZUtil
+            </summary>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZUtil.ConvertObject_to_ByteArray(System.Object)">
+            <summary>
+            object对象序列化转成byte数组
+            </summary>
+            <param name="DataOriginal">object可序列化对象</param>
+            <returns>byte[]数组</returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZUtil.ConvertByteArray_to_Object(System.Byte[])">
+            <summary>
+            byte数组反序列化转成object对象
+            </summary>
+            <param name="bytes">byte[]数组</param>
+            <returns>object对象</returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZUtil.GetLineNum">
+            <summary>
+            取得当前源码的哪一行
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZUtil.GetCurSourceFileName">
+            <summary>
+            取当前源码的源文件名
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZUtil.LogException(System.Exception)">
+            <summary>
+            Print异常信息
+            </summary>
+            <param name="e"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZPMC.Common.ActiveMQ.OnMessageReceiveDelegate">
+            <summary>
+            A delegate that can receive messages async.
+            </summary>
+            <param name="message">IMessage消息</param> 
+        </member>
+        <member name="T:ZPMC.Common.ActiveMQ.OnMessageReceiveSyncDelegate">
+            <summary>
+            A delegate that can receive messages async.
+            </summary>
+            <param name="message">IMessage消息</param> 
+            <param name="msgRet">IMessage返回消息</param>
+        </member>
+        <member name="T:ZPMC.Common.ActiveMQ.OnConnectionClosedDelegate">
+            <summary>
+            A delegate notify when a connection is closed
+            </summary>
+        </member>
+        <member name="T:ZPMC.Common.ActiveMQ.ZTopic_Send">
+            <summary>
+            Topic主题发送类.
+            Write by xujianfeng。
+            </summary>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZTopic_Send.#ctor(System.String,System.Int32,System.String)">
+            <summary>
+            ZTopic_Send构造函数
+            </summary>
+            <param name="strMQServerIP">ActiveMQ服务器IP</param>
+            <param name="nMQServerPort">ActiveMQ服务器端口号</param>
+            <param name="strTopicName">通讯的主题名</param>
+        </member>
+        <member name="T:ZPMC.Common.ActiveMQ.ZQueue_Receive">
+            <summary>
+            Queue队列接受类.
+            Write by xujianfeng。
+            </summary>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.ZQueue_Receive.#ctor(System.String,System.Int32,System.String,ZPMC.Common.ActiveMQ.OnMessageReceiveDelegate)">
+            <summary>
+            ZQueue_Receive构造函数
+            </summary>
+            <param name="strMQServerIP">ActiveMQ服务器IP</param>
+            <param name="nMQServerPort">ActiveMQ服务器端口号</param>
+            <param name="strQueueName">通讯的Queue队列名</param>
+            <param name="OnMessageReceive">OnMessageReceiveDelegate，接受代理</param>
+        </member>
+        <member name="T:ZPMC.Common.ActiveMQ.Logger">
+            <summary>
+            日志记录
+            </summary>
+        </member>
+        <member name="F:ZPMC.Common.ActiveMQ.Logger.s_bIsConfig">
+            <summary>
+            是否设置配置
+            </summary>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Logger.GetBinPath">
+            <summary>
+            获得程序所在的Bin路径
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZPMC.Common.ActiveMQ.Logger.Config">
+            <summary>
+            设置log4net的xml配置文件路径
+            </summary> 
+        </member>
+        <member name="P:ZPMC.Common.ActiveMQ.Logger.ActiveMQ">
+            <summary>
+            ActiveMQ
+            </summary>
+        </member>
+        <member name="P:ZPMC.Common.ActiveMQ.Logger.ActiveMQDebug">
+            <summary>
+            ActiveMQDebug
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,172 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.50727.42 (6c1c9c3d).
+//
+// f:\tcp\v1.3.0.0 source code\testcpp\release\ntcpmsg.tlh
+//
+// C++ source equivalent of Win32 type library NTCPMSG.tlb
+// compiler-generated file created 05/06/14 at 10:18:45 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace NTCPMSG {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("4645e464-75c9-4d82-a87e-01c7093847c9"))
+/* LIBID */ __NTCPMSG;
+struct __declspec(uuid("93c65050-072f-4f91-9f32-28cd277b5423"))
+/* dual interface */ INTCPMSGInterface;
+struct /* coclass */ NTCPMSGService;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(INTCPMSGInterface, __uuidof(INTCPMSGInterface));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("93c65050-072f-4f91-9f32-28cd277b5423"))
+INTCPMSGInterface : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL TS_Start (
+        long nPortNO,
+        unsigned long uUserData,
+        unsigned long onMsgReceive_TS );
+    VARIANT_BOOL TS_Stop ( );
+    VARIANT_BOOL TS_IsRun ( );
+    VARIANT_BOOL TC_Connect (
+        _bstr_t strIP,
+        long nPortNO,
+        unsigned long uUserData,
+        unsigned long onMsgReceive_TC,
+        unsigned long onDisconnect_TC );
+    VARIANT_BOOL TC_DisConnect ( );
+    VARIANT_BOOL TC_IsConnected ( );
+    VARIANT_BOOL TC_AsyncSend (
+        unsigned long uMsgID,
+        const _variant_t & objData );
+    VARIANT_BOOL TC_SyncSend (
+        unsigned long uMsgID,
+        const _variant_t & objData,
+        VARIANT * objDataToClient );
+    VARIANT_BOOL ES_Start (
+        long PortNO,
+        unsigned long uUserData,
+        unsigned long onMsgReceive );
+    VARIANT_BOOL ES_Stop ( );
+    VARIANT_BOOL ES_IsRun ( );
+    VARIANT_BOOL ES_RaiseEvent (
+        long nEventID,
+        const _variant_t & objContent );
+    VARIANT_BOOL EC_Connect (
+        _bstr_t strIP,
+        long nPortNO,
+        unsigned long uUserData,
+        unsigned long onMsgReceive_EC,
+        unsigned long onDisconnect_EC );
+    VARIANT_BOOL EC_DisConnect ( );
+    VARIANT_BOOL EC_IsConnected ( );
+    long EC_Subscribe (
+        _bstr_t eventName,
+        const _variant_t & eventParameter );
+    VARIANT_BOOL EC_UnSubscribe (
+        long nEventID );
+    VARIANT_BOOL EC_RaiseEvent (
+        long nEventID,
+        const _variant_t & objEventData );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_TS_Start (
+        /*[in]*/ long nPortNO,
+        /*[in]*/ unsigned long uUserData,
+        /*[in]*/ unsigned long onMsgReceive_TS,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_TS_Stop (
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_TS_IsRun (
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_TC_Connect (
+        /*[in]*/ BSTR strIP,
+        /*[in]*/ long nPortNO,
+        /*[in]*/ unsigned long uUserData,
+        /*[in]*/ unsigned long onMsgReceive_TC,
+        /*[in]*/ unsigned long onDisconnect_TC,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_TC_DisConnect (
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_TC_IsConnected (
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_TC_AsyncSend (
+        /*[in]*/ unsigned long uMsgID,
+        /*[in]*/ VARIANT objData,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_TC_SyncSend (
+        /*[in]*/ unsigned long uMsgID,
+        /*[in]*/ VARIANT objData,
+        /*[in,out]*/ VARIANT * objDataToClient,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_ES_Start (
+        /*[in]*/ long PortNO,
+        /*[in]*/ unsigned long uUserData,
+        /*[in]*/ unsigned long onMsgReceive,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_ES_Stop (
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_ES_IsRun (
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_ES_RaiseEvent (
+        /*[in]*/ long nEventID,
+        /*[in]*/ VARIANT objContent,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_EC_Connect (
+        /*[in]*/ BSTR strIP,
+        /*[in]*/ long nPortNO,
+        /*[in]*/ unsigned long uUserData,
+        /*[in]*/ unsigned long onMsgReceive_EC,
+        /*[in]*/ unsigned long onDisconnect_EC,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_EC_DisConnect (
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_EC_IsConnected (
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_EC_Subscribe (
+        /*[in]*/ BSTR eventName,
+        /*[in]*/ VARIANT eventParameter,
+        /*[out,retval]*/ long * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_EC_UnSubscribe (
+        /*[in]*/ long nEventID,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_EC_RaiseEvent (
+        /*[in]*/ long nEventID,
+        /*[in]*/ VARIANT objEventData,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+};
+
+struct __declspec(uuid("2228bd0f-9780-4f30-9637-052e0fb434ad"))
+NTCPMSGService;
+    // interface _Object
+    // [ default ] interface INTCPMSGInterface
+
+//
+// Wrapper method implementations
+//
+
+#include "f:\tcp\v1.3.0.0 source code\testcpp\release\ntcpmsg.tli"
+
+} // namespace NTCPMSG
+
+#pragma pack(pop)

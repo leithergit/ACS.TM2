@@ -1,0 +1,163 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.50727.762 (031ac1e7).
+//
+// e:\tcp\beetle2.7\test\testcpp\debug\tcpcommunication.tlh
+//
+// C++ source equivalent of Win32 type library ..\bin\TCPCommunication.tlb
+// compiler-generated file created 09/02/13 at 13:27:01 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace TCPCommunication {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("a020c0a5-a977-4031-98eb-f057a9965281"))
+/* LIBID */ __TCPCommunication;
+struct __declspec(uuid("93c65050-072f-4f91-9f32-28cd277b5422"))
+/* dual interface */ ITCPCommunicationInterface;
+struct /* coclass */ TCPCommunicationService;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(ITCPCommunicationInterface, __uuidof(ITCPCommunicationInterface));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("93c65050-072f-4f91-9f32-28cd277b5422"))
+ITCPCommunicationInterface : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL TS_Start (
+        long PortNO,
+        unsigned long uUserData,
+        unsigned long onMsgReceive );
+    VARIANT_BOOL TS_Stop ( );
+    VARIANT_BOOL TS_GetIsStart ( );
+    VARIANT_BOOL TC_Start (
+        _bstr_t strIP,
+        long PortNO,
+        unsigned long uUserData,
+        unsigned long onMsgReceive,
+        unsigned long onDisposed );
+    VARIANT_BOOL TC_Stop ( );
+    VARIANT_BOOL TC_GetIsStart ( );
+    VARIANT_BOOL TC_SendMessage (
+        _bstr_t strTopic,
+        const _variant_t & objData );
+    VARIANT_BOOL ES_Start (
+        long PortNO,
+        unsigned long uUserData,
+        unsigned long onMsgReceive );
+    VARIANT_BOOL ES_Stop ( );
+    VARIANT_BOOL ES_GetIsStart ( );
+    VARIANT_BOOL ES_RaiseEvent (
+        long nEventID,
+        const _variant_t & objContent );
+    VARIANT_BOOL EC_Start (
+        _bstr_t strIP,
+        long PortNO,
+        unsigned long uUserData,
+        unsigned long onMsgReceive,
+        unsigned long onDisposed );
+    VARIANT_BOOL EC_Stop ( );
+    VARIANT_BOOL EC_GetIsStart ( );
+    long EC_Subscribe (
+        _bstr_t eventName,
+        const _variant_t & eventParameter );
+    VARIANT_BOOL EC_UnSubscribe (
+        long nEventID );
+    VARIANT_BOOL EC_RaiseEvent (
+        long nEventID,
+        const _variant_t & objEventData );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_TS_Start (
+        /*[in]*/ long PortNO,
+        /*[in]*/ unsigned long uUserData,
+        /*[in]*/ unsigned long onMsgReceive,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_TS_Stop (
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_TS_GetIsStart (
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_TC_Start (
+        /*[in]*/ BSTR strIP,
+        /*[in]*/ long PortNO,
+        /*[in]*/ unsigned long uUserData,
+        /*[in]*/ unsigned long onMsgReceive,
+        /*[in]*/ unsigned long onDisposed,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_TC_Stop (
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_TC_GetIsStart (
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_TC_SendMessage (
+        /*[in]*/ BSTR strTopic,
+        /*[in]*/ VARIANT objData,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_ES_Start (
+        /*[in]*/ long PortNO,
+        /*[in]*/ unsigned long uUserData,
+        /*[in]*/ unsigned long onMsgReceive,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_ES_Stop (
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_ES_GetIsStart (
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_ES_RaiseEvent (
+        /*[in]*/ long nEventID,
+        /*[in]*/ VARIANT objContent,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_EC_Start (
+        /*[in]*/ BSTR strIP,
+        /*[in]*/ long PortNO,
+        /*[in]*/ unsigned long uUserData,
+        /*[in]*/ unsigned long onMsgReceive,
+        /*[in]*/ unsigned long onDisposed,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_EC_Stop (
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_EC_GetIsStart (
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_EC_Subscribe (
+        /*[in]*/ BSTR eventName,
+        /*[in]*/ VARIANT eventParameter,
+        /*[out,retval]*/ long * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_EC_UnSubscribe (
+        /*[in]*/ long nEventID,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_EC_RaiseEvent (
+        /*[in]*/ long nEventID,
+        /*[in]*/ VARIANT objEventData,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+};
+
+struct __declspec(uuid("2228bd0f-9780-4f30-9637-052e0fb434af"))
+TCPCommunicationService;
+    // interface _Object
+    // [ default ] interface ITCPCommunicationInterface
+
+//
+// Wrapper method implementations
+//
+
+#include "e:\tcp\beetle2.7\test\testcpp\debug\tcpcommunication.tli"
+
+} // namespace TCPCommunication
+
+#pragma pack(pop)

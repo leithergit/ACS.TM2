@@ -1,0 +1,5 @@
+F:\TCP\V1.3.0.0 Source code\TestClient\obj\Release\ResolveAssemblyReference.cache
+F:\TCP\V1.3.0.0 Source code\TestClient\obj\Release\TestClient.exe
+F:\TCP\V1.3.0.0 Source code\TestClient\obj\Release\TestClient.pdb
+F:\TCP\V1.3.0.0 Source code\Bin\TestClient.exe
+F:\TCP\V1.3.0.0 Source code\Bin\TestClient.pdb

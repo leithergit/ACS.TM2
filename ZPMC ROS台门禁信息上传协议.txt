@@ -1,0 +1,16 @@
+
+1.使用TCP/IP协议，服务器IP，Port可以配置 ，发送数据使用短连接报文，即一条连接只发送一条报文，发完即断
+2.协议定义
+	a.刷卡信息
+	格式：0,RosName,EmployeeID,UserName,SwipeTime
+    Sample：0,ROS1,20190411,Test User,2019-04-11 11:20:11
+
+ 
+	b.用户信息操作:Insert,Update,Delete
+	格式:1,Insert(Update,Delete),EmployeeID,UserName,Pin,Department
+	Sample:1,Insert,123456,Test Lee,1234,1
+ 
+ 
+	c.设备信息
+	格式:2,RosName,Status
+	Sample:2,ROS2,0		释义：2,号台，离线

@@ -1,0 +1,1 @@
+E:\SVN.NET\MQ.TM2\NetTcpMsg\ClientTest\obj\Debug\ClientTest.csprojResolveAssemblyReference.cache

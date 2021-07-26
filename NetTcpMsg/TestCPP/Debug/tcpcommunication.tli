@@ -1,0 +1,131 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.50727.762 (031ac1e7).
+//
+// e:\tcp\beetle2.7\test\testcpp\debug\tcpcommunication.tli
+//
+// Wrapper implementations for Win32 type library ..\bin\TCPCommunication.tlb
+// compiler-generated file created 09/02/13 at 13:27:01 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface ITCPCommunicationInterface wrapper method implementations
+//
+
+inline VARIANT_BOOL ITCPCommunicationInterface::TS_Start ( long PortNO, unsigned long uUserData, unsigned long onMsgReceive ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_TS_Start(PortNO, uUserData, onMsgReceive, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITCPCommunicationInterface::TS_Stop ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_TS_Stop(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITCPCommunicationInterface::TS_GetIsStart ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_TS_GetIsStart(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITCPCommunicationInterface::TC_Start ( _bstr_t strIP, long PortNO, unsigned long uUserData, unsigned long onMsgReceive, unsigned long onDisposed ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_TC_Start(strIP, PortNO, uUserData, onMsgReceive, onDisposed, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITCPCommunicationInterface::TC_Stop ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_TC_Stop(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITCPCommunicationInterface::TC_GetIsStart ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_TC_GetIsStart(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITCPCommunicationInterface::TC_SendMessage ( _bstr_t strTopic, const _variant_t & objData ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_TC_SendMessage(strTopic, objData, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITCPCommunicationInterface::ES_Start ( long PortNO, unsigned long uUserData, unsigned long onMsgReceive ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ES_Start(PortNO, uUserData, onMsgReceive, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITCPCommunicationInterface::ES_Stop ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ES_Stop(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITCPCommunicationInterface::ES_GetIsStart ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ES_GetIsStart(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITCPCommunicationInterface::ES_RaiseEvent ( long nEventID, const _variant_t & objContent ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ES_RaiseEvent(nEventID, objContent, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITCPCommunicationInterface::EC_Start ( _bstr_t strIP, long PortNO, unsigned long uUserData, unsigned long onMsgReceive, unsigned long onDisposed ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_EC_Start(strIP, PortNO, uUserData, onMsgReceive, onDisposed, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITCPCommunicationInterface::EC_Stop ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_EC_Stop(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITCPCommunicationInterface::EC_GetIsStart ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_EC_GetIsStart(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long ITCPCommunicationInterface::EC_Subscribe ( _bstr_t eventName, const _variant_t & eventParameter ) {
+    long _result = 0;
+    HRESULT _hr = raw_EC_Subscribe(eventName, eventParameter, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITCPCommunicationInterface::EC_UnSubscribe ( long nEventID ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_EC_UnSubscribe(nEventID, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITCPCommunicationInterface::EC_RaiseEvent ( long nEventID, const _variant_t & objEventData ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_EC_RaiseEvent(nEventID, objEventData, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}

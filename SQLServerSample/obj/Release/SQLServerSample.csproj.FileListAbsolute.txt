@@ -1,0 +1,5 @@
+E:\SVN.NET\MQ.TM2\SQLServerSample\bin\Release\SQLServerSample.exe.config
+E:\SVN.NET\MQ.TM2\SQLServerSample\bin\Release\SQLServerSample.exe
+E:\SVN.NET\MQ.TM2\SQLServerSample\bin\Release\SQLServerSample.pdb
+E:\SVN.NET\MQ.TM2\SQLServerSample\obj\Release\SQLServerSample.exe
+E:\SVN.NET\MQ.TM2\SQLServerSample\obj\Release\SQLServerSample.pdb

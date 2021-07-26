@@ -1,0 +1,30 @@
+﻿2021-05-28 11:04:43,629 [9] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-28 11:04:43,637 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-28 11:11:01,039 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Wire format negotiation timeout: peer did not send his wire format.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.WireFormatNegotiator.Oneway(Command command)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFilter.Oneway(Command command)
+   在 Apache.NMS.ActiveMQ.Transport.MutexTransport.Oneway(Command command)
+   在 Apache.NMS.ActiveMQ.Transport.ResponseCorrelator.AsyncRequest(Command command)
+   在 Apache.NMS.ActiveMQ.Transport.ResponseCorrelator.Request(Command command, TimeSpan timeout)
+   在 Apache.NMS.ActiveMQ.Connection.CheckConnected()
+   在 Apache.NMS.ActiveMQ.Connection.Start()
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:
+
+2021-05-28 11:11:01,046 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+

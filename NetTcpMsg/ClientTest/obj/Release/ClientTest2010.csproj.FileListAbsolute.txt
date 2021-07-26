@@ -1,0 +1,9 @@
+F:\TCP\V1.3.0.0 Source code\ClientTest\obj\Release\ResolveAssemblyReference.cache
+F:\TCP\V1.3.0.0 Source code\Bin\DotNet4.0\Release\ClientTest.exe.config
+F:\TCP\V1.3.0.0 Source code\Bin\DotNet4.0\Release\ClientTest.exe
+F:\TCP\V1.3.0.0 Source code\Bin\DotNet4.0\Release\ClientTest.pdb
+F:\TCP\V1.3.0.0 Source code\ClientTest\obj\Release\ClientTest.exe
+F:\TCP\V1.3.0.0 Source code\ClientTest\obj\Release\ClientTest.pdb
+F:\TCP\V1.3.0.0 Source code\Bin\DotNet2.0\Release\ClientTest.exe.config
+F:\TCP\V1.3.0.0 Source code\Bin\DotNet2.0\Release\ClientTest.exe
+F:\TCP\V1.3.0.0 Source code\Bin\DotNet2.0\Release\ClientTest.pdb

@@ -1,0 +1,546 @@
+﻿2021-04-27 11:19:11,191 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 10.27.11.102:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-04-27 11:19:11,199 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:10.27.11.102,QueueTopicName:TOUMSSERVER
+
+2021-04-27 11:20:49,254 [9] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 10.27.11.102:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-04-27 11:20:49,265 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:10.27.11.102,QueueTopicName:TOUMSSERVER
+
+2021-04-29 10:26:26,117 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 10.27.11.102:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-04-29 10:26:26,125 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:10.27.11.102,QueueTopicName:TOUMSSERVER
+
+2021-04-29 10:26:56,819 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 10.27.11.102:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-04-29 10:26:56,820 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:10.27.11.102,QueueTopicName:TOUMSSERVER
+
+2021-04-29 10:27:43,386 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 10.27.11.102:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-04-29 10:27:43,394 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:10.27.11.102,QueueTopicName:TOUMSSERVER
+
+2021-04-29 11:08:51,581 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 10.27.11.102:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-04-29 11:08:51,590 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:10.27.11.102,QueueTopicName:TOUMSSERVER
+
+2021-05-27 09:25:37,775 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 10.27.11.102:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 09:25:37,785 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:10.27.11.102,QueueTopicName:TOUMSSERVER
+
+2021-05-27 09:26:11,303 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 10.27.11.102:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 09:26:11,304 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:10.27.11.102,QueueTopicName:TOUMSSERVER
+
+2021-05-27 10:11:57,094 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 10.27.11.102:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 10:11:57,101 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:10.27.11.102,QueueTopicName:TOUMSSERVER
+
+2021-05-27 10:14:08,668 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 10:18:31,342 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 10:20:24,367 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 10:30:29,040 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 10:54:04,253 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 10:55:15,408 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 10:56:12,262 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 11:03:37,346 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 11:05:11,898 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 11:05:29,743 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 11:06:23,106 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 13:46:43,395 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 13:48:05,893 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 13:48:35,469 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 13:48:58,939 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 13:49:41,725 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 14:37:11,369 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Ok.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 15:49:21,396 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 15:49:21,403 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 15:51:03,552 [9] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 15:51:03,558 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 15:58:55,092 [9] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 15:58:55,100 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 16:04:14,441 [8] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 16:04:14,447 [8] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 16:06:18,520 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 16:06:18,527 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 16:11:38,888 [9] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 16:11:38,896 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 16:12:07,268 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 16:12:07,275 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 16:14:00,965 [9] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 16:14:00,972 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 16:18:00,610 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 16:18:00,617 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 16:46:14,933 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 16:46:14,940 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 16:46:49,556 [8] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 16:46:49,562 [8] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 17:13:51,832 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 17:13:51,840 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 17:23:40,126 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 17:23:40,134 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 18:02:49,472 [8] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 18:02:49,480 [8] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 18:19:18,992 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 18:19:18,999 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-27 18:55:13,533 [9] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-27 18:55:13,541 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-28 09:37:23,825 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-28 09:37:23,832 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-28 09:38:00,935 [8] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-28 09:38:00,942 [8] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-28 09:38:21,331 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-28 09:38:21,338 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-28 09:38:56,620 [9] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-28 09:38:56,626 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-28 09:43:09,514 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-28 09:43:09,521 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-28 09:44:17,405 [9] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-28 09:44:17,412 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-28 09:54:47,889 [9] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-28 09:54:47,895 [9] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
+2021-05-28 09:58:16,629 [10] ERROR - Context:Z_Send_Base.MQ_Start()
+Exception:Error connecting to 127.0.0.1:61616.
+ StackTrace:   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.DoConnect(String host, Int32 port, String localAddress, Int32 localPort)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CompositeConnect(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.Tcp.TcpTransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.Transport.TransportFactory.CreateTransport(Uri location)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateActiveMQConnection(String userName, String password)
+   在 Apache.NMS.ActiveMQ.ConnectionFactory.CreateConnection(String userName, String password)
+   在 Apache.NMS.NMSConnectionFactory.CreateConnection(String userName, String password)
+   在 ZECS.Common.ActiveMQ.Z_Send_Base.MQ_Start()
+ InnerException:Unknown error (0xfffffffe)
+
+2021-05-28 09:58:16,636 [10] INFO  - Context:Z_Send_Base.Start()
+Info:Start Failed.MQServerIP:127.0.0.1,QueueTopicName:TOUMSSERVER
+
